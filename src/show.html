@@ -1,0 +1,16 @@
+<h1>My name : {{myName}}</h1>
+<p>Repeat Names</p>
+<ul>
+  <li *ng-for="#name of names">
+      {{name}} <span (click)="removeName(name, names)">x</span>
+  </li>
+</ul>
+<!--I don't it didn't work when I used nameText(), but it worked with nametext-->
+<input #nametext (keyup)="doneTyping($event)">
+<button (click)="addNewName(nametext.value)">Add Name</button>
+
+<p *ng-if="names.length > 3">You have 3 names!</p>
+<p *ng-if="names.length > 7">You have more than 7 name!</p>
+
+
+

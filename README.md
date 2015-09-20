@@ -1,1 +1,1 @@
-# Angular2Starter
+# angular-2-starter

@@ -1,0 +1,26 @@
+{
+  "name": "angular-2-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.3",
+    "gulp-shell": "^0.4.3",
+    "gulp-traceur": "^0.17.1",
+    "gulp-webserver": "^0.9.1",
+    "reflect-metadata": "^0.1.1",
+    "angular2": "^2.0.0-alpha.36",
+    "systemjs": "^0.18.17",
+    "gulp-bower": "^0.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nasir",
+  "license": "ISC"
+}
